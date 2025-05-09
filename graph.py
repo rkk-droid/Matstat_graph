@@ -23,7 +23,7 @@ for src, dst in G.edges():
     net.add_edge(src, dst)
 
 # Рендерим в HTML
-out_html = "graph.html"
+out_html = "index.html"
 net.write_html(out_html, notebook=False)
 
 # Загружаем сгенерированный файл
